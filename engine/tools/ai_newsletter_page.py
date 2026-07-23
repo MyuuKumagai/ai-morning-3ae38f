@@ -259,7 +259,7 @@ function allMemos(){
   k=localStorage.key(i);
   if(k.indexOf('memo:')!==0)continue;
   var m={};try{m=JSON.parse(localStorage.getItem('meta:'+k.slice(5))||'{}')}catch(e){}
-  out.push('■ '+(m.t||'')+(m.d?'（'+m.d+'）':'')+'\n'+m.u+'\nメモ: '+localStorage.getItem(k));
+  out.push('■ '+(m.t||'')+(m.d?'（'+m.d+'）':'')+'\\n'+m.u+'\\nメモ: '+localStorage.getItem(k));
  }
  return out;
 }
@@ -270,7 +270,7 @@ function refreshMemoBtn(){
  b.textContent='メモを'+n+'件まとめてコピー';
 }
 window.copyMemos=function(){
- var t='【今朝のAI メモ】\n\n'+allMemos().join('\n\n');
+ var t='【今朝のAI メモ】\\n\\n'+allMemos().join('\\n\\n');
  navigator.clipboard.writeText(t).then(function(){
   var b=document.getElementById('mall');b.textContent='コピーしました。クロちゃんに貼ってください';
   setTimeout(refreshMemoBtn,2500);
