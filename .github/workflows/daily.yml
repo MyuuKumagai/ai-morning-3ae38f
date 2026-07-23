@@ -54,6 +54,13 @@ jobs:
           python -u ai_rss.py || echo "RSS取り込みでエラー（続行）"
           python -u ai_newsletter.py
 
+      - name: 公開前チェック（JavaScriptが壊れていないか）
+        run: |
+          node --version
+          # 生成したHTMLのJSをnodeで構文検査。壊れていればここでジョブが失敗し、
+          # git push まで進まない＝壊れたサイトは公開されず前回の正常版が残る。
+          python engine/tools/check_site_js.py engine/tools/site
+
       - name: 記録の準備
         run: |
           git config user.name  "今朝のAI"
