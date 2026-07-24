@@ -283,7 +283,16 @@ window.askAI=function(){
  fetch(ASK_URL,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},
   body:JSON.stringify({q:t,ctx:ctx})})
   .then(function(r){return r.json()})
-  .then(function(d){a.textContent=d.answer||d.error||'うまく答えられませんでした。'})
+  .then(function(d){
+   var msg=d.answer;
+   if(!msg){
+    var e=d.error||'';
+    if(/too many times/i.test(e))msg='今日はもう質問できる回数の上限に達しました。明日また聞いてください。';
+    else if(/未設定/.test(e))msg='準備がまだ整っていません。';
+    else msg='うまく答えられませんでした。少し時間をおいて試してください。';
+   }
+   a.textContent=msg;
+  })
   .catch(function(){a.textContent='つながりませんでした。少し時間をおいて試してください。'})
   .then(function(){if(b)b.disabled=false});
 };
