@@ -188,6 +188,17 @@ a{color:inherit;text-decoration:none}
 .memo textarea:focus{border-color:var(--rule)}
 .memohint{font-size:12px;color:var(--mute);margin-top:8px;line-height:1.7}
 .saved{color:var(--rule)}
+/* 記事についてAIに質問する欄 */
+.askai{background:var(--card);border-radius:12px;padding:14px 15px 15px;margin:26px 0 0;box-shadow:var(--sh)}
+.askai textarea{width:100%;min-height:58px;background:transparent;border:1px solid var(--line);
+ border-radius:8px;padding:11px 12px;font-family:'Hiragino Sans',sans-serif;font-size:15px;
+ line-height:1.8;color:var(--ink);resize:vertical;outline:none}
+.askai textarea:focus{border-color:var(--rule)}
+.askbtn{margin-top:10px;padding:11px 18px;border:1px solid var(--rule);border-radius:8px;
+ background:transparent;color:var(--rule);font-family:'Hiragino Sans',sans-serif;font-size:14px;cursor:pointer}
+.askbtn:active{transform:scale(.99)}
+.askbtn[disabled]{opacity:.5}
+.aians{margin-top:13px;font-size:15px;line-height:1.9;color:var(--ink);white-space:pre-wrap}
 .srcbox{border-top:1px solid var(--line);margin-top:28px;padding-top:18px}
 .srcbox .lbl{font-family:'DM';font-size:10px;letter-spacing:.14em;color:var(--mute);margin-bottom:10px}
 .srcbox a{display:flex;align-items:center;justify-content:space-between;gap:12px;
@@ -219,6 +230,7 @@ function show(){
  var m=location.hash.match(/^#a(\\d+)$/);
  if(!m){L.classList.remove('hide');A.classList.add('hide');A.innerHTML='';document.title='今朝のAI';window.scrollTo(0,0);return}
  var s=D[+m[1]];if(!s){location.hash='';return}
+ window.__cur=s;
  var ps=s.body.filter(Boolean),last=ps.length>1?ps.pop():null;
  var h='<div class="back" onclick="history.back()">&larr; 一覧にもどる</div>';
  if(s.img)h+='<img src="'+s.img+'" alt="">';
@@ -226,6 +238,10 @@ function show(){
  if(s.audio)h+='<div class="player"><p class="plbl">きく</p><audio controls preload="none" src="'+s.audio+'"></audio></div>';
  h+=ps.map(function(t){return '<p class="bd">'+esc(t)+'</p>'}).join('');
  if(last)h+='<p class="use c'+s.ci+'">'+esc(last)+'</p>';
+ h+='<div class="askai"><p class="memolbl">この記事についてAIに質問</p>'
+   +'<textarea id="qai" placeholder="例：これは私にどう関係ある？"></textarea>'
+   +'<button class="askbtn" id="qbtn" onclick="askAI()">聞いてみる</button>'
+   +'<div id="aians" class="aians"></div></div>';
  h+='<div class="memo"><p class="memolbl">メモ <span id="mst"></span></p>'
    +'<textarea id="mtx" placeholder="どう使えそう？ やってみたいことは？"></textarea>'
    +'<p class="memohint">書くと自動で保存されます。一覧の下から全部まとめてコピーできます。</p></div>';
@@ -253,6 +269,24 @@ function show(){
  }
  document.title=s.title;window.scrollTo(0,0);
 }
+// 記事についてAIに質問する。鍵は中継役(Google Apps Script)側に置き、ここには出さない。
+var ASK_URL='https://script.google.com/macros/s/AKfycbxwifQsVl8vNMeh-umo4ydLRswAERePoSYmKc7gewg0_rxHZhbogCYpXQ9ZgeMSIeE9-Q/exec';
+window.askAI=function(){
+ var q=document.getElementById('qai'),a=document.getElementById('aians'),b=document.getElementById('qbtn');
+ if(!q||!a)return;
+ var t=q.value.trim();
+ if(!t){a.textContent='聞きたいことを書いてください。';return}
+ var s=window.__cur||{};
+ var ctx=(s.title||'')+'\\n'+((s.body||[]).join('\\n'));
+ a.textContent='考えています…';
+ if(b)b.disabled=true;
+ fetch(ASK_URL,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},
+  body:JSON.stringify({q:t,ctx:ctx})})
+  .then(function(r){return r.json()})
+  .then(function(d){a.textContent=d.answer||d.error||'うまく答えられませんでした。'})
+  .catch(function(){a.textContent='つながりませんでした。少し時間をおいて試してください。'})
+  .then(function(){if(b)b.disabled=false});
+};
 function allMemos(){
  var out=[],i,k;
  for(i=0;i<localStorage.length;i++){
