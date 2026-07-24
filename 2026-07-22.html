@@ -127,7 +127,8 @@ function show(){
  var ps=s.body.filter(Boolean),last=ps.length>1?ps.pop():null;
  var h='<div class="back" onclick="history.back()">&larr; 一覧にもどる</div>';
  if(s.img)h+='<img src="'+s.img+'" alt="">';
- h+='<p class="cat c'+s.ci+'">'+esc(s.cat)+(s.date?' &nbsp;·&nbsp; '+esc(s.date.replace(/-/g,'.')):'')+'</p><h2>'+esc(s.title)+'</h2>';
+ var dstr=(s.date||'').trim();
+ h+='<p class="cat c'+s.ci+'">'+esc(s.cat)+(dstr?' &nbsp;·&nbsp; 公開 '+esc(dstr.replace(/-/g,'.')):'')+'</p><h2>'+esc(s.title)+'</h2>';
  if(s.audio)h+='<div class="player"><p class="plbl">きく</p><audio controls preload="none" src="'+s.audio+'"></audio></div>';
  h+=ps.map(function(t){return '<p class="bd">'+esc(t)+'</p>'}).join('');
  if(last)h+='<p class="use c'+s.ci+'">'+esc(last)+'</p>';
