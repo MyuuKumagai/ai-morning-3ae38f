@@ -115,11 +115,35 @@ def recent_videos(target: str, limit: int = 6) -> list[dict]:
     return out
 
 
+def date_from_watch_page(vid: str) -> str:
+    """YouTubeの動画ページのHTMLから公開日を読む（yt-dlpが返さない時の2番目の手段）。
+
+    実測2026-07-24: yt-dlp が upload_date を空で返す動画が実際にあった
+    （例 qWKa5Z8BKWs / 8MRUgzC6r6I）。だがページのHTMLには
+    "publishDate":"2026-07-12T04:00:12-07:00" の形で必ず入っていた。
+    ここを読めば取りこぼしを防げる。
+    """
+    try:
+        req = urllib.request.Request(
+            f"https://www.youtube.com/watch?v={vid}",
+            headers={"User-Agent": "Mozilla/5.0", "Accept-Language": "ja"},
+        )
+        with urllib.request.urlopen(req, timeout=30) as r:
+            html = r.read().decode("utf-8", "ignore")
+        m = re.search(r'"(?:publishDate|uploadDate)":"(\d{4}-\d{2}-\d{2})', html)
+        if m:
+            return m.group(1)
+    except Exception:
+        pass
+    return ""
+
+
 def upload_date(vid: str) -> str:
     """公開日を1本ずつ取り直す。
 
     実測2026-07-21: `--flat-playlist` では upload_date が空で返り、公開日なしのノートが
     できてしまった。鮮度の判定に使う値なので、空のままにはしない。
+    実測2026-07-24: yt-dlp 自体が空を返す動画もあったため、ページHTMLを読む手段も足した。
     """
     try:
         r = subprocess.run(
@@ -132,7 +156,8 @@ def upload_date(vid: str) -> str:
             return f"{d[:4]}-{d[4:6]}-{d[6:8]}"
     except Exception:
         pass
-    return ""
+    # yt-dlpで取れなかった時は、動画ページのHTMLから読む
+    return date_from_watch_page(vid)
 
 
 def dates_from_feed(target: str) -> dict:
