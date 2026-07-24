@@ -234,7 +234,10 @@ function show(){
  var ps=s.body.filter(Boolean),last=ps.length>1?ps.pop():null;
  var h='<div class="back" onclick="history.back()">&larr; 一覧にもどる</div>';
  if(s.img)h+='<img src="'+s.img+'" alt="">';
- h+='<p class="cat c'+s.ci+'">'+esc(s.cat)+(s.date?' &nbsp;·&nbsp; '+esc(s.date.replace(/-/g,'.')):'')+'</p><h2>'+esc(s.title)+'</h2>';
+ // 日付が空白だけのことがある（YouTubeが公開日を返さない動画）。
+ // そのまま出すと「·」だけが残るので、中身があるときだけ表示する。
+ var dstr=(s.date||'').trim();
+ h+='<p class="cat c'+s.ci+'">'+esc(s.cat)+(dstr?' &nbsp;·&nbsp; 公開 '+esc(dstr.replace(/-/g,'.')):'')+'</p><h2>'+esc(s.title)+'</h2>';
  if(s.audio)h+='<div class="player"><p class="plbl">きく</p><audio controls preload="none" src="'+s.audio+'"></audio></div>';
  h+=ps.map(function(t){return '<p class="bd">'+esc(t)+'</p>'}).join('');
  if(last)h+='<p class="use c'+s.ci+'">'+esc(last)+'</p>';
