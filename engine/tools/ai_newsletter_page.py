@@ -144,7 +144,11 @@ body{background:var(--bg);color:var(--ink);font-family:'Hiragino Sans',sans-seri
 a{color:inherit;text-decoration:none}
 
 /* ヘッダー */
-.hd{padding:26px 0 18px;border-bottom:1px solid var(--rule);margin-bottom:20px;
+.nav{display:flex;gap:8px;padding-top:6px;margin-bottom:2px}
+.nav a{font-family:'Hiragino Sans',sans-serif;font-size:13px;color:var(--mute);text-decoration:none;
+ padding:7px 15px;border-radius:9px;border:1px solid var(--line)}
+.nav a.on{color:var(--rule);border-color:var(--rule)}
+.hd{padding:14px 0 18px;border-bottom:1px solid var(--rule);margin-bottom:20px;
  display:flex;justify-content:space-between;align-items:flex-end;gap:12px}
 .hd h1{font-family:'Hiragino Mincho ProN',serif;font-size:26px;font-weight:600;line-height:1.1}
 .hd .meta{font-family:'DM';font-size:10px;letter-spacing:.14em;color:var(--mute);text-align:right;line-height:1.9}
@@ -424,10 +428,10 @@ def build_page(day: datetime.date, stories: list[dict], vol: int, yesterday: lis
 <meta name="theme-color" content="#0E0D0C">
 <title>今朝のAI</title><style>{css}</style></head>
 <body><div class="wrap">
+<nav class="nav"><a href="index.html" class="on">今日の5本</a><a href="shelf.html">AIの棚</a></nav>
 <div class="hd"><h1 class="mincho">今朝のAI</h1>
 <div class="meta">{d} {wd}<br>VOL.{vol} &nbsp;·&nbsp; {len(data)} STORIES</div></div>
 <div id="list">{cards}
-<a class="bk" href="shelf.html" style="color:var(--rule)">&#9889; AIの棚 — ためたニュースを全部見る &nearr;</a>
 {_back_issues(day)}
 <button id="mall" class="mallbtn" onclick="copyMemos()" style="display:none"></button>
 <p class="foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; まいあさ8:00 こうしん</p></div>
