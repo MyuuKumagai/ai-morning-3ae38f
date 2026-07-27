@@ -6,6 +6,7 @@ import sys, re, html, json, datetime
 from pathlib import Path
 
 STALE_DAYS = 90
+JA = re.compile(r"[ぁ-んァ-ヴ]")   # ひらがな・カタカナがあれば日本語とみなす
 
 
 def esc(s):
@@ -53,13 +54,26 @@ def main():
                 pass
         t = re.sub(r"\s*[\(（][^)）]*[\)）]\s*$", "", title)[:70]
         summary = gists.get(vid, "")
+
+        # 日本語で読める見出しを主役にする。
+        # 元タイトルは英語や記号のID（例 e7bd166c2dc）のことがあり、そのままでは読めない。
+        # 日本語の要約がすでにあるので、タイトルが日本語でなければ要約を見出しに使う。
+        is_id = bool(re.fullmatch(r"[0-9a-fA-F_\-]{8,}", t))
+        headline, sub = t, summary
+        if (not JA.search(t) or is_id) and summary:
+            headline = summary[:60]          # 日本語の要約を見出しに
+            sub = "" if is_id else t         # 元タイトルは小さく添える（IDなら出さない）
+        elif is_id:
+            headline = "（タイトル未取得）"
+            sub = summary
+
         url = f"https://www.youtube.com/watch?v={vid}"
         items_html.append(
             '<a class="row" href="' + esc(url) + '" target="_blank" rel="noopener">'
             + '<div class="meta"><span class="date">' + esc(datestr) + '</span>' + stale_tag + '</div>'
-            + '<h2>' + esc(t) + '</h2>'
+            + '<h2>' + esc(headline) + '</h2>'
             + '<div class="ch">' + esc(ch) + '</div>'
-            + ('<p class="sum">' + esc(summary) + '</p>' if summary else '')
+            + ('<p class="sum">' + esc(sub) + '</p>' if sub else '')
             + '</a>'
         )
 
