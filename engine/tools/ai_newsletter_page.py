@@ -426,7 +426,9 @@ def build_page(day: datetime.date, stories: list[dict], vol: int, yesterday: lis
 <body><div class="wrap">
 <div class="hd"><h1 class="mincho">今朝のAI</h1>
 <div class="meta">{d} {wd}<br>VOL.{vol} &nbsp;·&nbsp; {len(data)} STORIES</div></div>
-<div id="list">{cards}{_back_issues(day)}
+<div id="list">{cards}
+<a class="bk" href="shelf.html" style="color:var(--rule)">&#9889; AIの棚 — ためたニュースを全部見る &nearr;</a>
+{_back_issues(day)}
 <button id="mall" class="mallbtn" onclick="copyMemos()" style="display:none"></button>
 <p class="foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; まいあさ8:00 こうしん</p></div>
 <div id="art" class="art hide"></div>
