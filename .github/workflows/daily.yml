@@ -53,6 +53,8 @@ jobs:
           python -u ai_video.py --days 2 --max 4 || echo "動画取り込みでエラー（続行）"
           python -u ai_rss.py || echo "RSS取り込みでエラー（続行）"
           python -u ai_newsletter.py
+          # AIニュースの棚ページ(shelf.html)を作る。AIは呼ばない＝¥0。取れたニュース全部を新しい順に並べる。
+          python -u build_shelf.py ../data/captures/ai_news gists.json site/shelf.html || echo "棚ページ生成でエラー（続行）"
 
       - name: 公開前チェック（JavaScriptが壊れていないか）
         run: |
