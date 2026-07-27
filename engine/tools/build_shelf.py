@@ -88,6 +88,9 @@ def main():
 body{margin:0;background:var(--bg);color:var(--ink);font-family:'Hiragino Sans',sans-serif;
  -webkit-font-smoothing:antialiased;line-height:1.6}
 .wrap{max-width:640px;margin:0 auto;padding:26px 20px 60px}
+.nav{display:flex;gap:8px;padding-top:6px;margin-bottom:14px}
+.nav a{font-size:13px;color:var(--mute);text-decoration:none;padding:7px 15px;border-radius:9px;border:1px solid var(--line)}
+.nav a.on{color:var(--rule);border-color:var(--rule)}
 .kicker{font-size:13px;color:var(--mute)}
 .h1{font-family:'Hiragino Mincho ProN',serif;font-size:26px;margin:10px 0 0}
 .rule{height:1px;background:var(--rule);margin:12px 0 10px}
@@ -104,11 +107,11 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:'Hiragino Sans',
 .sum{font-size:13px;color:var(--mute);line-height:1.75;margin:5px 0 0}
 .foot{margin-top:34px;font-size:11px;color:var(--mute);opacity:.7;border-top:1px solid var(--line);padding-top:16px}
 </style></head><body><div class="wrap">
+<nav class="nav"><a href="index.html">今日の5本</a><a href="shelf.html" class="on">AIの棚</a></nav>
 <div class="kicker">今朝のAI</div>
 <div class="h1">AIの棚</div>
 <div class="rule"></div>
 <div class="fresh">全 __TOTAL__本 ・ 新しい順 ／ 直近3ヶ月 <b>__FRESH__本</b></div>
-<a class="back" href="index.html">&larr; 今朝のAI（今日の5本）にもどる</a>
 <div class="list">
 __ITEMS__
 </div>
