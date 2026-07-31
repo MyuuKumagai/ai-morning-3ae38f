@@ -406,7 +406,7 @@ def render(day: datetime.date, stories: list[dict], vol: int, yesterday: list[di
 </div>
 
 <div class="nl-main">
-<div class="nl-rule"><span>{d}</span></div>
+<div class="nl-rule"><span>{d} · 毎朝9時ごろ更新</span></div>
 <div class="nl-content">
 <p class="nl-lede">{e(top["summary"])}</p>
 {top_use}
