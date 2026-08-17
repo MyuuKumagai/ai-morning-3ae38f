@@ -35,7 +35,16 @@ jobs:
           pip install --quiet google-genai pillow yt-dlp
 
       - name: 音声変換のffmpegを入れる
-        uses: FedericoCarboni/setup-ffmpeg@v3
+        # FedericoCarboni/setup-ffmpeg@v3 が "TypeError: fetch failed" で3回連続失敗
+        # （2026-08-16/17）。ffmpeg配布元へのフェッチが不安定な模様。
+        # ubuntu-latestランナーには ffmpeg が標準搭載されているため、それを使う方が
+        # 外部フェッチに依存せず堅牢。念のため apt でも確認する。
+        run: |
+          if ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq ffmpeg
+          fi
+          ffmpeg -version
 
       - name: 記事と音声を作る
         env:
