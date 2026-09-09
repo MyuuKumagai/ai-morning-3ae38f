@@ -49,10 +49,18 @@ jobs:
       - name: 記事と音声を作る
         env:
           GEMINI_FREE_API_KEY: ${{ secrets.GEMINI_FREE_API_KEY }}
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
           READER_CONTEXT: ${{ secrets.READER_CONTEXT }}
           AI_DATA_DIR: ${{ github.workspace }}/engine/data
           TZ: Australia/Melbourne
         run: |
+          # Vertex(無料クレジット)の鍵を金庫(Secrets)から取り出してファイル化し、Gemini認証に使う。
+          # 鍵が無ければ従来のAPIキー方式に自動フォールバックする（GEMINI_VERTEX_PROJECTを立てない）。
+          if [ -n "$GCP_SA_KEY" ]; then
+            printf '%s' "$GCP_SA_KEY" > "$RUNNER_TEMP/gcp_sa.json"
+            export GOOGLE_APPLICATION_CREDENTIALS="$RUNNER_TEMP/gcp_sa.json"
+            export GEMINI_VERTEX_PROJECT=gen-lang-client-0828081303
+          fi
           cd engine/tools
           # 過去号はリポジトリ直下にある。バックナンバー一覧に出すため作業場所へ持ってくる
           mkdir -p site

@@ -190,8 +190,13 @@ def explain(url: str) -> str:
     """動画そのものをGeminiに見せて解説を書かせる。"""
     from google import genai
     from google.genai import types
-    key = os.environ.get("GEMINI_FREE_API_KEY") or os.environ.get("GEMINI_API_KEY")
-    client = genai.Client(api_key=key)
+    proj = os.environ.get("GEMINI_VERTEX_PROJECT")
+    if proj:                       # Vertex(無料クレジット)優先
+        client = genai.Client(vertexai=True, project=proj,
+                              location=os.environ.get("GEMINI_VERTEX_LOCATION", "global"))
+    else:                          # 従来のAPIキー方式（フォールバック）
+        key = os.environ.get("GEMINI_FREE_API_KEY") or os.environ.get("GEMINI_API_KEY")
+        client = genai.Client(api_key=key)
     content = types.Content(parts=[
         types.Part(text=PROMPT),
         types.Part(file_data=types.FileData(file_uri=url)),
