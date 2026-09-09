@@ -199,7 +199,7 @@ def explain(url: str) -> str:
         client = genai.Client(api_key=key)
     content = types.Content(role="user", parts=[
         types.Part(text=PROMPT),
-        types.Part(file_data=types.FileData(file_uri=url)),
+        types.Part(file_data=types.FileData(file_uri=url, mime_type="video/*")),
     ])
     for m in MODELS:
         try:

@@ -44,25 +44,62 @@ def _key() -> str:
     return (os.environ.get("GEMINI_FREE_API_KEY") or os.environ.get("GEMINI_API_KEY") or "").strip()
 
 
+# Vertex(無料クレジット)で動くTTSモデル（gemini-3.1-flash-tts-preview はVertexに無い=404なので外す）
+VERTEX_TTS_MODELS = [
+    "gemini-2.5-flash-preview-tts",
+    "gemini-2.5-flash-tts",
+    "gemini-2.5-pro-preview-tts",
+]
+
+
+def _vertex_auth():
+    """GEMINI_VERTEX_PROJECT があれば (Bearerトークン, ベースURL) を返す。無ければ (None, None)。"""
+    proj = os.environ.get("GEMINI_VERTEX_PROJECT")
+    if not proj:
+        return None, None
+    import google.auth
+    from google.auth.transport.requests import Request as _GAR
+    creds, _ = google.auth.default(scopes=["https://www.googleapis.com/auth/cloud-platform"])
+    creds.refresh(_GAR())
+    loc = os.environ.get("GEMINI_VERTEX_LOCATION", "global")
+    host = "aiplatform.googleapis.com" if loc == "global" else f"{loc}-aiplatform.googleapis.com"
+    base = f"https://{host}/v1/projects/{proj}/locations/{loc}/publishers/google/models"
+    return creds.token, base
+
+
 def _pcm(text: str) -> bytes:
-    """Gemini TTSから生のPCMを受け取る。失敗したら空。"""
-    key = _key()
-    if not key or not text.strip():
+    """Gemini TTSから生のPCMを受け取る。Vertex(無料クレジット)優先。失敗したら空。"""
+    if not text.strip():
         return b""
     payload = {
-        "contents": [{"parts": [{"text": text}]}],
+        "contents": [{"role": "user", "parts": [{"text": text}]}],
         "generationConfig": {
             "responseModalities": ["AUDIO"],
             "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": VOICE}}},
         },
     }
+    token, base = _vertex_auth()
+    if token:                       # Vertex(Bearer認証)
+        models = VERTEX_TTS_MODELS
+
+        def _mk(m):
+            return (f"{base}/{m}:generateContent",
+                    {"Authorization": f"Bearer {token}", "Content-Type": "application/json"})
+    else:                           # 従来のAPIキー方式（フォールバック）
+        key = _key()
+        if not key:
+            return b""
+        models = MODELS
+
+        def _mk(m):
+            return (f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key={key}",
+                    {"Content-Type": "application/json"})
+
     # 429は「1日の上限」なので待っても回復しない。次のモデルに切り替えるのが正解。
     last = ""
-    for model in MODELS:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
-        req = urllib.request.Request(
-            url, data=json.dumps(payload).encode(), headers={"Content-Type": "application/json"}
-        )
+    for model in models:
+        url, headers = _mk(model)
+        req = urllib.request.Request(url, data=json.dumps(payload).encode(), headers=headers)
         try:
             res = json.loads(urllib.request.urlopen(req, timeout=180).read())
             part = res["candidates"][0]["content"]["parts"][0]["inlineData"]
