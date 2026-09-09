@@ -197,7 +197,7 @@ def explain(url: str) -> str:
     else:                          # 従来のAPIキー方式（フォールバック）
         key = os.environ.get("GEMINI_FREE_API_KEY") or os.environ.get("GEMINI_API_KEY")
         client = genai.Client(api_key=key)
-    content = types.Content(parts=[
+    content = types.Content(role="user", parts=[
         types.Part(text=PROMPT),
         types.Part(file_data=types.FileData(file_uri=url)),
     ])

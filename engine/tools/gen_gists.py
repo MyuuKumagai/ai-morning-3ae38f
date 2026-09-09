@@ -57,10 +57,14 @@ def load_items() -> list[tuple[str, str]]:
 
 
 def build_client():
-    """無料キーがあれば無料枠で、無ければ従来の有料キーで動く（環境が欠けても止めない）。"""
+    """Vertex(無料クレジット)優先。無ければ無料キー、それも無ければ従来の有料キー。"""
+    from google import genai
+    proj = os.environ.get("GEMINI_VERTEX_PROJECT")
+    if proj:
+        return genai.Client(vertexai=True, project=proj,
+                            location=os.environ.get("GEMINI_VERTEX_LOCATION", "global"))
     if not FREE_KEY:
         return yx.build_client()
-    from google import genai
     return genai.Client(api_key=FREE_KEY)
 
 
