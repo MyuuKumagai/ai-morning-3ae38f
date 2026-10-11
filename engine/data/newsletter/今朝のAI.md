@@ -1,7 +1,7 @@
 ---
 type: ai-newsletter
-date: 2026-10-10
-vol: 79
+date: 2026-10-11
+vol: 80
 cssclasses: [newsletter]
 tags: [jibun-ai, ai-news, newsletter]
 ---
@@ -9,53 +9,53 @@ tags: [jibun-ai, ai-news, newsletter]
 <div class="nl">
 
 <div class="nl-cover">
-<a class="nl-cover-img" href="https://simonwillison.net/2026/Oct/9/built-using-my-voice/"><img src="https://static.simonwillison.net/static/2026/codex-voice.webp" alt=""></a>
+<a class="nl-cover-img" href="https://simonwillison.net/2026/Oct/10/the-new-york-times/"><span class="nl-noimg">Simon Willison</span></a>
 <div class="nl-cover-text">
 <p class="nl-cat nl-3">未来 — TOP STORY</p>
-<h2 class="nl-title"><a href="https://simonwillison.net/2026/Oct/9/built-using-my-voice/">A new feature for my blog, built using m</a></h2>
+<h2 class="nl-title"><a href="https://simonwillison.net/2026/Oct/10/the-new-york-times/">Quoting The New York Times</a></h2>
 </div>
 </div>
 
 <div class="nl-main">
-<div class="nl-rule"><span>2026.10.10 · 毎朝9時ごろ更新</span></div>
+<div class="nl-rule"><span>2026.10.11 · 毎朝9時ごろ更新</span></div>
 <div class="nl-content">
-<p class="nl-lede">&lt;p&gt;I shipped a new feature for my blog today: the &lt;a href=&#x27;https://simonwillison.net/newsletters/&#x27;&gt;Newsletters&lt;/a&gt; page, which offers an index of all of the newsletters I&#x27;ve sent out, both my free &lt;a href=&#x27;https://simonw.substack.com/&#x27;&gt;weekly Substack&lt;/a&gt; and my &lt;a href=&#x27;https://github.com/sponsors/simonw/&#x27;&gt;monthly sponsors-only&lt;/a&gt; updates. I built the feature almost entirely using my voice, chat</p>
+<p class="nl-lede">&lt;blockquote cite=&#x27;https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html&#x27;&gt;&lt;p&gt;Anthropic detailed the activity of its A.I. agents in &lt;a href=&#x27;https://www.anthropic.com/research/investigating-unintended-model-actions&#x27;&gt;a blog post&lt;/a&gt; on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa</p>
 
-<div class="nl-back"><p class="nl-cat">昨日の分</p><ul><li><a href="https://openai.com/index/pollo-ai">Pollo AI turns creative ideas into campa</a></li><li><a href="https://openai.com/index/oracle">How Oracle turns days of work into minut</a></li><li><a href="https://openai.com/index/disrupting-ai-enabled-false-front-operations">Disrupting AI-enabled “false front” oper</a></li></ul></div>
+<div class="nl-back"><p class="nl-cat">昨日の分</p><ul><li><a href="https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/">Anthropic can’t reliably control its AI </a></li><li><a href="https://openai.com/index/sophos">Sophos cuts threat investigation time by</a></li><li><a href="https://openai.com/index/asana-browser-agent">Asana cuts model costs 76x in browser te</a></li></ul></div>
 <div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://simonwillison.net/2026/Oct/10/python-actions/"><span class="nl-noimg">Simon Willison</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/">Anthropic can’t reliably control its AI </a></h3>
-<p class="nl-sum">Anthropic said it &#x27;turned off live internet access&#x27; for &#x27;all our internal evaluations&#x27; until further notice.</p>
+<h3 class="nl-h"><a href="https://simonwillison.net/2026/Oct/10/python-actions/">Python 3.15.0 added to actions/python-ve</a></h3>
+<p class="nl-sum">&lt;p&gt;&lt;strong&gt;&lt;a href=&#x27;https://github.com/actions/python-versions/commit/49858b91c92d27403416ee43117032e91d00ce24&#x27;&gt;Python 3.15.0 added to actions/python-versions&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; Bit of a niche link, but I&#x27;ve been waiting for this for a couple of days - I even &lt;a href=&#x27;https://chatgpt.com/share/6acad42a-2868-83e8-9a16-736f9def2b45&#x27;&gt;told ChatGPT&lt;/a&gt; to check for it:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;code&gt;Clone htt</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://openai.com/index/sophos"><span class="nl-noimg">OpenAI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://openai.com/index/sophos">Sophos cuts threat investigation time by</a></h3>
-<p class="nl-sum">Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/">Here are the top AI agents that can live</a></h3>
+<p class="nl-sum">We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://openai.com/index/asana-browser-agent"><span class="nl-noimg">OpenAI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://openai.com/index/asana-browser-agent">Asana cuts model costs 76x in browser te</a></h3>
-<p class="nl-sum">Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/">Apple discloses deal to hire team and li</a></h3>
+<p class="nl-sum">Is Apple hoping to get into the AI-generated podcast business?</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://simonwillison.net/2026/Oct/9/ttok/"><span class="nl-noimg">Simon Willison</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://simonwillison.net/2026/Oct/9/ttok/">ttok 1.0</a></h3>
-<p class="nl-sum">&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&#x27;https://github.com/simonw/ttok/releases/tag/1.0&#x27;&gt;ttok 1.0&lt;/a&gt;&lt;/p&gt; &lt;p&gt;I released &lt;a href=&#x27;https://simonwillison.net/2026/Oct/8/ttok/&#x27;&gt;ttok 0.4&lt;/a&gt;, ran &lt;code&gt;uv tool upgrade ttok&lt;/code&gt;, piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 instead!&lt;/p&gt; &lt;p&gt;I figured swi</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/">Microsoft’s Satya Nadella says AI models</a></h3>
+<p class="nl-sum">In a Saturday morning post, Microsoft&#x27;s CEO wrote that it’s time “to step back and assess the trust architecture” of AI.</p>
 
 </div>
 </div>
-<p class="nl-foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; 2026.10.10 SAT &nbsp;·&nbsp; VOL.79</p>
+<p class="nl-foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; 2026.10.11 SUN &nbsp;·&nbsp; VOL.80</p>
 </div>
 </div>
 
