@@ -1,7 +1,7 @@
 ---
 type: ai-newsletter
-date: 2026-10-11
-vol: 80
+date: 2026-10-12
+vol: 81
 cssclasses: [newsletter]
 tags: [jibun-ai, ai-news, newsletter]
 ---
@@ -9,53 +9,53 @@ tags: [jibun-ai, ai-news, newsletter]
 <div class="nl">
 
 <div class="nl-cover">
-<a class="nl-cover-img" href="https://simonwillison.net/2026/Oct/10/the-new-york-times/"><span class="nl-noimg">Simon Willison</span></a>
+<a class="nl-cover-img" href="https://simonwillison.net/2026/Oct/11/dwarf-fortress/"><span class="nl-noimg">Simon Willison</span></a>
 <div class="nl-cover-text">
 <p class="nl-cat nl-3">未来 — TOP STORY</p>
-<h2 class="nl-title"><a href="https://simonwillison.net/2026/Oct/10/the-new-york-times/">Quoting The New York Times</a></h2>
+<h2 class="nl-title"><a href="https://simonwillison.net/2026/Oct/11/dwarf-fortress/">Dwarf Fortress uses version control now</a></h2>
 </div>
 </div>
 
 <div class="nl-main">
-<div class="nl-rule"><span>2026.10.11 · 毎朝9時ごろ更新</span></div>
+<div class="nl-rule"><span>2026.10.12 · 毎朝9時ごろ更新</span></div>
 <div class="nl-content">
-<p class="nl-lede">&lt;blockquote cite=&#x27;https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html&#x27;&gt;&lt;p&gt;Anthropic detailed the activity of its A.I. agents in &lt;a href=&#x27;https://www.anthropic.com/research/investigating-unintended-model-actions&#x27;&gt;a blog post&lt;/a&gt; on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa</p>
+<p class="nl-lede">&lt;p&gt;I remember hearing a while ago that Dwarf Fortress didn&#x27;t use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control &lt;em&gt;more&lt;/em&gt;. That&#x27;s art.&lt;/p&gt; &lt;p&gt;I went looking and I&#x27;m sad to report that the days without version control appear to have ended. Quoting Tarn Adams over time:&lt;/p&gt; &lt;</p>
 
-<div class="nl-back"><p class="nl-cat">昨日の分</p><ul><li><a href="https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/">Anthropic can’t reliably control its AI </a></li><li><a href="https://openai.com/index/sophos">Sophos cuts threat investigation time by</a></li><li><a href="https://openai.com/index/asana-browser-agent">Asana cuts model costs 76x in browser te</a></li></ul></div>
+<div class="nl-back"><p class="nl-cat">昨日の分</p><ul><li><a href="https://simonwillison.net/2026/Oct/10/python-actions/">Python 3.15.0 added to actions/python-ve</a></li><li><a href="https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/">Here are the top AI agents that can live</a></li><li><a href="https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/">Apple discloses deal to hire team and li</a></li></ul></div>
 <div class="nl-row">
-<a class="nl-thumb" href="https://simonwillison.net/2026/Oct/10/python-actions/"><span class="nl-noimg">Simon Willison</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://simonwillison.net/2026/Oct/10/python-actions/">Python 3.15.0 added to actions/python-ve</a></h3>
-<p class="nl-sum">&lt;p&gt;&lt;strong&gt;&lt;a href=&#x27;https://github.com/actions/python-versions/commit/49858b91c92d27403416ee43117032e91d00ce24&#x27;&gt;Python 3.15.0 added to actions/python-versions&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; Bit of a niche link, but I&#x27;ve been waiting for this for a couple of days - I even &lt;a href=&#x27;https://chatgpt.com/share/6acad42a-2868-83e8-9a16-736f9def2b45&#x27;&gt;told ChatGPT&lt;/a&gt; to check for it:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;code&gt;Clone htt</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/">Can the AI industry persuade data center</a></h3>
+<p class="nl-sum">On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/">Here are the top AI agents that can live</a></h3>
-<p class="nl-sum">We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/">These execs think voice AI hasn’t reache</a></h3>
+<p class="nl-sum">Voice AI&#x27;s often misses important points for its context layer, and causes the whole pipeline to break</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/">Apple discloses deal to hire team and li</a></h3>
-<p class="nl-sum">Is Apple hoping to get into the AI-generated podcast business?</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/">48 hours to TechCrunch Disrupt 2026 — he</a></h3>
+<p class="nl-sum">Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals.</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/">Microsoft’s Satya Nadella says AI models</a></h3>
-<p class="nl-sum">In a Saturday morning post, Microsoft&#x27;s CEO wrote that it’s time “to step back and assess the trust architecture” of AI.</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/">Will the HomeView be Apple’s first smart</a></h3>
+<p class="nl-sum">Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.</p>
 
 </div>
 </div>
-<p class="nl-foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; 2026.10.11 SUN &nbsp;·&nbsp; VOL.80</p>
+<p class="nl-foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; 2026.10.12 MON &nbsp;·&nbsp; VOL.81</p>
 </div>
 </div>
 
