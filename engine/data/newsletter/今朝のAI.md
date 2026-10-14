@@ -1,7 +1,7 @@
 ---
 type: ai-newsletter
-date: 2026-10-13
-vol: 82
+date: 2026-10-14
+vol: 83
 cssclasses: [newsletter]
 tags: [jibun-ai, ai-news, newsletter]
 ---
@@ -9,53 +9,53 @@ tags: [jibun-ai, ai-news, newsletter]
 <div class="nl">
 
 <div class="nl-cover">
-<a class="nl-cover-img" href="https://simonwillison.net/2026/Oct/12/python-3-15/"><img src="https://static.simonwillison.net/static/2026/profiler-output.webp" alt=""></a>
+<a class="nl-cover-img" href="https://simonwillison.net/2026/Oct/13/llm-gemini/"><img src="https://static.simonwillison.net/static/2026/gemini-4-argon-high.webp" alt=""></a>
 <div class="nl-cover-text">
 <p class="nl-cat nl-3">未来 — TOP STORY</p>
-<h2 class="nl-title"><a href="https://simonwillison.net/2026/Oct/12/python-3-15/">Hello Python 3.15, goodbye 3.10, and now</a></h2>
+<h2 class="nl-title"><a href="https://simonwillison.net/2026/Oct/13/llm-gemini/">llm-gemini 0.35</a></h2>
 </div>
 </div>
 
 <div class="nl-main">
-<div class="nl-rule"><span>2026.10.13 · 毎朝9時ごろ更新</span></div>
+<div class="nl-rule"><span>2026.10.14 · 毎朝9時ごろ更新</span></div>
 <div class="nl-content">
-<p class="nl-lede">&lt;p&gt;Python 3.15 &lt;a href=&#x27;https://www.python.org/downloads/release/python-3150/&#x27;&gt;is here&lt;/a&gt;! Here&#x27;s the essential &lt;a href=&#x27;https://docs.python.org/3.15/whatsnew/3.15.html&#x27;&gt;What&#x27;s new in Python 3.15&lt;/a&gt; guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.</p>
+<p class="nl-lede">&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&#x27;https://github.com/simonw/llm-gemini/releases/tag/0.35&#x27;&gt;llm-gemini 0.35&lt;/a&gt;&lt;/p&gt; &lt;p&gt;I added support to &lt;a href=&#x27;https://github.com/simonw/llm-gemini&#x27;&gt;llm-gemini&lt;/a&gt; for the &lt;a href=&#x27;https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/&#x27;&gt;new Gemini 4 Argon&lt;/a&gt; model, made available today via the Gemini API and for customers of t</p>
 
-<div class="nl-back"><p class="nl-cat">昨日の分</p><ul><li><a href="https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/">Can the AI industry persuade data center</a></li><li><a href="https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/">These execs think voice AI hasn’t reache</a></li><li><a href="https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/">48 hours to TechCrunch Disrupt 2026 — he</a></li></ul></div>
+<div class="nl-back"><p class="nl-cat">昨日の分</p><ul><li><a href="https://simonwillison.net/2026/Oct/12/datasette-ports/">datasette-ports 0.4</a></li><li><a href="https://simonwillison.net/2026/Oct/12/web-edit/">web-edit 0.1a0</a></li><li><a href="https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/">Meta releases its first frontier model, </a></li></ul></div>
 <div class="nl-row">
-<a class="nl-thumb" href="https://simonwillison.net/2026/Oct/12/datasette-ports/"><span class="nl-noimg">Simon Willison</span></a>
+<a class="nl-thumb" href="https://openai.com/index/higgsfield-longer-videos-voice"><span class="nl-noimg">OpenAI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://simonwillison.net/2026/Oct/12/datasette-ports/">datasette-ports 0.4</a></h3>
-<p class="nl-sum">&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&#x27;https://github.com/datasette/datasette-ports/releases/tag/0.4&#x27;&gt;datasette-ports 0.4&lt;/a&gt;&lt;/p&gt; &lt;p&gt;My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to &lt;a href=&#x27;https://simonwillison.net/2026/Oct/12/python-3-15/#a-sampling-profi</p>
+<h3 class="nl-h"><a href="https://openai.com/index/higgsfield-longer-videos-voice">Higgsfield takes AI video from 1 minute </a></h3>
+<p class="nl-sum">Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://simonwillison.net/2026/Oct/12/web-edit/"><span class="nl-noimg">Simon Willison</span></a>
+<a class="nl-thumb" href="https://simonwillison.net/2026/Oct/13/geoffrey-huntley/"><span class="nl-noimg">Simon Willison</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://simonwillison.net/2026/Oct/12/web-edit/">web-edit 0.1a0</a></h3>
-<p class="nl-sum">&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&#x27;https://github.com/simonw/web-edit/releases/tag/0.1a0&#x27;&gt;web-edit 0.1a0&lt;/a&gt;&lt;/p&gt; &lt;p&gt;I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself.&lt;/p&gt; &lt;p&gt;So... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI</p>
+<h3 class="nl-h"><a href="https://simonwillison.net/2026/Oct/13/geoffrey-huntley/">Quoting Geoffrey Huntley</a></h3>
+<p class="nl-sum">&lt;blockquote cite=&#x27;https://ghuntley.com/agency/&#x27;&gt;&lt;p&gt;If the agent isn&#x27;t using my diagnostics library, I could introspect and update AGENTS.md, but there&#x27;s still a delta, and it&#x27;ll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail the commit, inject a prompt telling the agent to use the diagnostic</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"><img src="https://static.simonwillison.net/static/2026/anthropic-merges-per-day.webp" alt=""></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/">Meta releases its first frontier model, </a></h3>
-<p class="nl-sum">Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.</p>
+<h3 class="nl-h"><a href="https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/">Redesigning source control at Anthropic</a></h3>
+<p class="nl-sum">&lt;p&gt;&lt;strong&gt;&lt;a href=&#x27;https://www.anthropic.com/engineering/redesigning-source-control&#x27;&gt;Redesigning source control at Anthropic&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;In May 2026, Anthropic averaged around 2,5</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://simonwillison.net/2026/Oct/13/web-edit/"><span class="nl-noimg">Simon Willison</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/">TechCrunch Disrupt 2026 starts tomorrow:</a></h3>
-<p class="nl-sum">Tomorrow at 8 a.m. PT, it all begins z— 10,000+ founders, investors, and tech operators will gather at San Francisco’s Moscone West for TechCrunch Disrupt 2026 for three days of ideas, connections, and startups shaping what comes next. This is your last 24 hours to secure ticket savings of up to $100, and get 50% off a second.</p>
+<h3 class="nl-h"><a href="https://simonwillison.net/2026/Oct/13/web-edit/">web-edit 0.1a1</a></h3>
+<p class="nl-sum">&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&#x27;https://github.com/simonw/web-edit/releases/tag/0.1a1&#x27;&gt;web-edit 0.1a1&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Includes &lt;a href=&#x27;https://github.com/simonw/web-edit/pull/1&#x27;&gt;performance optimizations&lt;/a&gt; written &lt;a href=&#x27;https://claude.ai/code/session_01LE2R4P74P9GGUbE6yQ5YBt&#x27;&gt;by Claude Opus 5.5&lt;/a&gt; after I fed it &lt;a href=&#x27;https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/</p>
 
 </div>
 </div>
-<p class="nl-foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; 2026.10.13 TUE &nbsp;·&nbsp; VOL.82</p>
+<p class="nl-foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; 2026.10.14 WED &nbsp;·&nbsp; VOL.83</p>
 </div>
 </div>
 
