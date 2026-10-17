@@ -1,7 +1,7 @@
 ---
 type: ai-newsletter
-date: 2026-10-16
-vol: 85
+date: 2026-10-17
+vol: 86
 cssclasses: [newsletter]
 tags: [jibun-ai, ai-news, newsletter]
 ---
@@ -9,53 +9,53 @@ tags: [jibun-ai, ai-news, newsletter]
 <div class="nl">
 
 <div class="nl-cover">
-<a class="nl-cover-img" href="https://deepmind.google/blog/accelerating-antimicrobial-discovery/"><img src="https://lh3.googleusercontent.com/Xgnc_DxAUS2Fs9H2rokxsYwPnnM_KOkPyPtKm7V2C_sjZ7YS4N1-D6lD8wjYIRQoKaiSwHUXB7qmw77m6FCfHLZenWdNymO7B_JLChlB6ied6emR=w528-h297-n-nu-rw-lo" alt=""></a>
+<a class="nl-cover-img" href="https://openai.com/index/itau-generative-ai"><span class="nl-noimg">OpenAI</span></a>
 <div class="nl-cover-text">
 <p class="nl-cat nl-3">未来 — TOP STORY</p>
-<h2 class="nl-title"><a href="https://deepmind.google/blog/accelerating-antimicrobial-discovery/">Accelerating the search for antimicrobia</a></h2>
+<h2 class="nl-title"><a href="https://openai.com/index/itau-generative-ai">How Itaú is building generative AI for i</a></h2>
 </div>
 </div>
 
 <div class="nl-main">
-<div class="nl-rule"><span>2026.10.16 · 毎朝9時ごろ更新</span></div>
+<div class="nl-rule"><span>2026.10.17 · 毎朝9時ごろ更新</span></div>
 <div class="nl-content">
-<p class="nl-lede">Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.</p>
+<p class="nl-lede">With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.</p>
 
-<div class="nl-back"><p class="nl-cat">昨日の分</p><ul><li><a href="https://openai.com/index/third-moment-research">How Third Moment Research runs 10,000 ag</a></li><li><a href="https://openai.com/index/amp-beyond-coding">Amp puts AI agents to work beyond code w</a></li><li><a href="https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic">The EU’s next chapter in AI is agentic</a></li></ul></div>
+<div class="nl-back"><p class="nl-cat">昨日の分</p><ul><li><a href="https://openai.com/index/teaching-students-to-think-and-learn-through-questions">Teaching students to think and learn thr</a></li><li><a href="https://openai.com/index/introducing-the-rosalind-academic-plan">Bringing GPT-Rosalind to academic resear</a></li><li><a href="https://simonwillison.net/2026/Oct/15/chirp-pong/">Chirp Pong</a></li></ul></div>
 <div class="nl-row">
-<a class="nl-thumb" href="https://openai.com/index/teaching-students-to-think-and-learn-through-questions"><span class="nl-noimg">OpenAI</span></a>
+<a class="nl-thumb" href="https://openai.com/index/stack-overflow-chatgpt-plugin"><span class="nl-noimg">OpenAI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://openai.com/index/teaching-students-to-think-and-learn-through-questions">Teaching students to think and learn thr</a></h3>
-<p class="nl-sum">Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.</p>
+<h3 class="nl-h"><a href="https://openai.com/index/stack-overflow-chatgpt-plugin">Stack Overflow for Agents triples signup</a></h3>
+<p class="nl-sum">Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://openai.com/index/introducing-the-rosalind-academic-plan"><span class="nl-noimg">OpenAI</span></a>
+<a class="nl-thumb" href="https://simonwillison.net/2026/Oct/16/code-review/"><span class="nl-noimg">Simon Willison</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://openai.com/index/introducing-the-rosalind-academic-plan">Bringing GPT-Rosalind to academic resear</a></h3>
-<p class="nl-sum">Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.</p>
+<h3 class="nl-h"><a href="https://simonwillison.net/2026/Oct/16/code-review/">Quoting Addy Osmani, Morgan Westlee Lunt</a></h3>
+<p class="nl-sum">&lt;blockquote cite=&#x27;https://claude.dev/blog/solving-code-review-at-anthropic/&#x27;&gt;&lt;p&gt;We think &#x27;did a human read the code?&#x27; is an imprecise proxy for &#x27;what could go wrong with this change, and which check—automated or human—is the right one to catch it?&#x27;&lt;/p&gt; &lt;p&gt;Asking that question also changed &lt;em&gt;when&lt;/em&gt; review happens. Before, review was a gate at the end of the road: write the code, open a PR, wai</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://simonwillison.net/2026/Oct/15/chirp-pong/"><span class="nl-noimg">Simon Willison</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://simonwillison.net/2026/Oct/15/chirp-pong/">Chirp Pong</a></h3>
-<p class="nl-sum">&lt;p&gt;&lt;strong&gt;Tool:&lt;/strong&gt; &lt;a href=&#x27;https://tools.simonwillison.net/chirp-pong&#x27;&gt;Chirp Pong&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work!&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;code&gt;Build a two player competitive pong like game where two pla</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/">Mark Wahlberg on using AI in film ‘the r</a></h3>
+<p class="nl-sum">Actor and angel investor Mark Wahlberg says he&#x27;s OK with using AI in filmmaking, provided it&#x27;s used &#x27;to enhance what you&#x27;re doing.&#x27;</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"><span class="nl-noimg">Simon Willison</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/">Anthropic tells investors quarterly reve</a></h3>
-<p class="nl-sum">&lt;p&gt;&lt;strong&gt;&lt;a href=&#x27;https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b?syn-25a6b1a6=1&#x27;&gt;Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; The phrase &#x27;told investors&#x27; appears four times in this FT article, which reports on Anthropic&#x27;s day of hosting investors on Wednesday. Lots of details in here from &#x27;&lt;a href=&#x27;https://simonwillison.net/2</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/">Replit is no longer working with Anthrop</a></h3>
+<p class="nl-sum">Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.</p>
 
 </div>
 </div>
-<p class="nl-foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; 2026.10.16 FRI &nbsp;·&nbsp; VOL.85</p>
+<p class="nl-foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; 2026.10.17 SAT &nbsp;·&nbsp; VOL.86</p>
 </div>
 </div>
 
