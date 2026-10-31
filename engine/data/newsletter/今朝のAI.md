@@ -1,7 +1,7 @@
 ---
 type: ai-newsletter
-date: 2026-10-30
-vol: 99
+date: 2026-10-31
+vol: 100
 cssclasses: [newsletter]
 tags: [jibun-ai, ai-news, newsletter]
 ---
@@ -9,53 +9,53 @@ tags: [jibun-ai, ai-news, newsletter]
 <div class="nl">
 
 <div class="nl-cover">
-<a class="nl-cover-img" href="https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-cover-img" href="https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-cover-text">
 <p class="nl-cat nl-3">未来 — TOP STORY</p>
-<h2 class="nl-title"><a href="https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/">You don’t need to believe in a god to ge</a></h2>
+<h2 class="nl-title"><a href="https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/">Nvidia weighs playing the cosigner for N</a></h2>
 </div>
 </div>
 
 <div class="nl-main">
-<div class="nl-rule"><span>2026.10.30 · 毎朝9時ごろ更新</span></div>
+<div class="nl-rule"><span>2026.10.31 · 毎朝9時ごろ更新</span></div>
 <div class="nl-content">
-<p class="nl-lede">David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.</p>
+<p class="nl-lede">When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.</p>
 
-<div class="nl-back"><p class="nl-cat">昨日の分</p><ul><li><a href="https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/">AI execs may be too out of touch to buil</a></li><li><a href="https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/">South Korea’s financial industry hit by </a></li><li><a href="https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/">Google expands AI Search ads globally as</a></li></ul></div>
+<div class="nl-back"><p class="nl-cat">昨日の分</p><ul><li><a href="https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/">Ex-Palantir execs launch Dream with $17M</a></li><li><a href="https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/">Granola crunches up a dictation feature </a></li><li><a href="https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/">As search traffic dries up, Reddit annou</a></li></ul></div>
 <div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/">Ex-Palantir execs launch Dream with $17M</a></h3>
-<p class="nl-sum">Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream&#x27;s world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/">Theranos whistleblower Tyler Shultz warn</a></h3>
+<p class="nl-sum">The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/">Granola crunches up a dictation feature </a></h3>
-<p class="nl-sum">Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/">Anthropic expected to receive high ‘junk</a></h3>
+<p class="nl-sum">Blackstone&#x27;s forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/">As search traffic dries up, Reddit annou</a></h3>
-<p class="nl-sum">As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/">Ollie, a privacy-focused AI assistant, i</a></h3>
+<p class="nl-sum">As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users&#x27; privacy, says it will be shutting down in a week.</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/">OpenAI-backed Thrive Holdings acquires A</a></h3>
-<p class="nl-sum">OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/">DoorDash said it’s only received ‘severa</a></h3>
+<p class="nl-sum">DoorDash said that it is open to working with third-party agent makers.</p>
 
 </div>
 </div>
-<p class="nl-foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; 2026.10.30 FRI &nbsp;·&nbsp; VOL.99</p>
+<p class="nl-foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; 2026.10.31 SAT &nbsp;·&nbsp; VOL.100</p>
 </div>
 </div>
 
