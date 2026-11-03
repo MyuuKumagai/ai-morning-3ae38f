@@ -1,7 +1,7 @@
 ---
 type: ai-newsletter
-date: 2026-11-02
-vol: 102
+date: 2026-11-03
+vol: 103
 cssclasses: [newsletter]
 tags: [jibun-ai, ai-news, newsletter]
 ---
@@ -9,53 +9,53 @@ tags: [jibun-ai, ai-news, newsletter]
 <div class="nl">
 
 <div class="nl-cover">
-<a class="nl-cover-img" href="https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-cover-img" href="https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/"><img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp" alt=""></a>
 <div class="nl-cover-text">
 <p class="nl-cat nl-3">未来 — TOP STORY</p>
-<h2 class="nl-title"><a href="https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/">OpenAI might rebrand its data centers as</a></h2>
+<h2 class="nl-title"><a href="https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/">The latest AI news we announced in Octob</a></h2>
 </div>
 </div>
 
 <div class="nl-main">
-<div class="nl-rule"><span>2026.11.02 · 毎朝9時ごろ更新</span></div>
+<div class="nl-rule"><span>2026.11.03 · 毎朝9時ごろ更新</span></div>
 <div class="nl-content">
-<p class="nl-lede">Data centers are deeply unpopular. But what if we called them something else?</p>
+<p class="nl-lede">&lt;img src=&#x27;https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp&#x27;&gt;Here are Google’s latest AI updates from October 2026</p>
 
-<div class="nl-back"><p class="nl-cat">昨日の分</p><ul><li><a href="https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/">Apple CEO says the company doesn’t ‘want</a></li><li><a href="https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/">4 days left: How TechCrunch Founder Summ</a></li><li><a href="https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/">OpenAI reportedly lowers funding target </a></li></ul></div>
+<div class="nl-back"><p class="nl-cat">昨日の分</p><ul><li><a href="https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/">AI can make tech CEOs’ lives easier. Wha</a></li><li><a href="https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/">If in doubt, delete the uv.lock file</a></li><li><a href="https://simonwillison.net/2026/Nov/1/kyle-kingsbury/">Quoting Kyle Kingsbury</a></li></ul></div>
 <div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/">AI can make tech CEOs’ lives easier. Wha</a></h3>
-<p class="nl-sum">On Equity, we discuss why tech CEO statements can seem so tone deaf.</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/">Y Combinator’s Garry Tan uses AI agents </a></h3>
+<p class="nl-sum">Y Combinator Garry Tan has jokingly admitted that he&#x27;s suffered from &#x27;cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/"><span class="nl-noimg">Simon Willison</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/">If in doubt, delete the uv.lock file</a></h3>
-<p class="nl-sum">&lt;p&gt;I&#x27;ve been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I&#x27;m having to remember is:&lt;/p&gt; &lt;p&gt;&lt;strong&gt;If in doubt, delete the uv.lock file&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Most of my projects are libraries which don&#x27;t include a &lt;code&gt;uv.lock&lt;/code&gt; file, since it&#x27;s rude for a library dependency to lock versions for anything else that uses it.&lt;/p&gt; &lt;p&gt;Runnin</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/">Apple may try to increase revenue by doi</a></h3>
+<p class="nl-sum">Apple hinted at ways that it could spur revenue through third-party &#x27;opportunities&#x27; during its Monday night earnings call.</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://simonwillison.net/2026/Nov/1/kyle-kingsbury/"><span class="nl-noimg">Simon Willison</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://simonwillison.net/2026/Nov/1/kyle-kingsbury/">Quoting Kyle Kingsbury</a></h3>
-<p class="nl-sum">&lt;blockquote cite=&#x27;https://jepsen.io/analyses/particledb-1.1.4#llm-tradeoffs&#x27;&gt;&lt;p&gt;More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...]&lt;/p&gt; &lt;p&gt;In the age of LLMs</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/">Trajectory raises $45M to make AI model </a></h3>
+<p class="nl-sum">The one-year-old startup is now valued at $300 million.</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/">Judge allows NAACP lawsuit over xAI data</a></h3>
-<p class="nl-sum">An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/">Omen AI adds liquid know-how in $16 mill</a></h3>
+<p class="nl-sum">Two startups tackling the data center water problem are joining forces in a $16 million deal.</p>
 
 </div>
 </div>
-<p class="nl-foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; 2026.11.02 MON &nbsp;·&nbsp; VOL.102</p>
+<p class="nl-foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; 2026.11.03 TUE &nbsp;·&nbsp; VOL.103</p>
 </div>
 </div>
 
