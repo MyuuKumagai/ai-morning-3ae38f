@@ -1,7 +1,7 @@
 ---
 type: ai-newsletter
-date: 2026-11-10
-vol: 110
+date: 2026-11-11
+vol: 111
 cssclasses: [newsletter]
 tags: [jibun-ai, ai-news, newsletter]
 ---
@@ -9,53 +9,53 @@ tags: [jibun-ai, ai-news, newsletter]
 <div class="nl">
 
 <div class="nl-cover">
-<a class="nl-cover-img" href="https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-cover-img" href="https://openai.com/index/gilbert-tobin-sam-nickless"><span class="nl-noimg">OpenAI</span></a>
 <div class="nl-cover-text">
 <p class="nl-cat nl-3">未来 — TOP STORY</p>
-<h2 class="nl-title"><a href="https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/">Anthropic reportedly plans to move forwa</a></h2>
+<h2 class="nl-title"><a href="https://openai.com/index/gilbert-tobin-sam-nickless">Gilbert + Tobin rethinks the business of</a></h2>
 </div>
 </div>
 
 <div class="nl-main">
-<div class="nl-rule"><span>2026.11.10 · 毎朝9時ごろ更新</span></div>
+<div class="nl-rule"><span>2026.11.11 · 毎朝9時ごろ更新</span></div>
 <div class="nl-content">
-<p class="nl-lede">The AI company is expected to set its valuation range this week, the Wall Street Journal reported.</p>
+<p class="nl-lede">A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.</p>
 
-<div class="nl-back"><p class="nl-cat">昨日の分</p><ul><li><a href="https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/">Nvidia will investigate CEO Jensen Huang</a></li><li><a href="https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy">Nvidia is investigating Jensen Huang’s r</a></li><li><a href="https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit">Elvis and Eminem rights holders are suin</a></li></ul></div>
+<div class="nl-back"><p class="nl-cat">昨日の分</p><ul><li><a href="https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/">Automattic debuts a platform to deploy v</a></li><li><a href="https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/">Medium’s new TK app brings AI assistance</a></li><li><a href="https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/">Is Jensen Huang’s job on the line? Yale’</a></li></ul></div>
 <div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/">Automattic debuts a platform to deploy v</a></h3>
-<p class="nl-sum">Automattic aims to compete with the likes of Lovable with Spacefast.</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/">Anthropic sets IPO price range of $70 to</a></h3>
+<p class="nl-sum">The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/">Medium’s new TK app brings AI assistance</a></h3>
-<p class="nl-sum">Medium&#x27;s new writing app embraces AI-assisted writing, despite growing controversy over the technology&#x27;s role in publishing.</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/">Nvidia CEO Jensen Huang’s affair with al</a></h3>
+<p class="nl-sum">The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/">Is Jensen Huang’s job on the line? Yale’</a></h3>
-<p class="nl-sum">Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/">Adobe brings AI agents and new creative </a></h3>
+<p class="nl-sum">Adobe is taking on Figma with a new prototype builder tool in Firefly.</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/">A short seller flagged Nvidia CEO’s ties</a></h3>
-<p class="nl-sum">Six months before Nvidia&#x27;s spy scandal erupted, Culper Research was already questioning Jensen Huang&#x27;s unusually close relationship with a Chinese executive.</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/">PSI is trying to make a business out of </a></h3>
+<p class="nl-sum">PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.</p>
 
 </div>
 </div>
-<p class="nl-foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; 2026.11.10 TUE &nbsp;·&nbsp; VOL.110</p>
+<p class="nl-foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; 2026.11.11 WED &nbsp;·&nbsp; VOL.111</p>
 </div>
 </div>
 
