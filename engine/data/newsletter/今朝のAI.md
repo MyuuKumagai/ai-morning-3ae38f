@@ -1,7 +1,7 @@
 ---
 type: ai-newsletter
-date: 2026-11-12
-vol: 112
+date: 2026-11-13
+vol: 113
 cssclasses: [newsletter]
 tags: [jibun-ai, ai-news, newsletter]
 ---
@@ -9,53 +9,53 @@ tags: [jibun-ai, ai-news, newsletter]
 <div class="nl">
 
 <div class="nl-cover">
-<a class="nl-cover-img" href="https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-cover-img" href="https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-cover-text">
 <p class="nl-cat nl-3">未来 — TOP STORY</p>
-<h2 class="nl-title"><a href="https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/">CoreWeave turns to customer prepayments,</a></h2>
+<h2 class="nl-title"><a href="https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/">Jensen Huang was having a third affair, </a></h2>
 </div>
 </div>
 
 <div class="nl-main">
-<div class="nl-rule"><span>2026.11.12 · 毎朝9時ごろ更新</span></div>
+<div class="nl-rule"><span>2026.11.13 · 毎朝9時ごろ更新</span></div>
 <div class="nl-content">
-<p class="nl-lede">CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.</p>
+<p class="nl-lede">Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.</p>
 
-<div class="nl-back"><p class="nl-cat">昨日の分</p><ul><li><a href="https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/">Anthropic sets IPO price range of $70 to</a></li><li><a href="https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/">Nvidia CEO Jensen Huang’s affair with al</a></li><li><a href="https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/">Adobe brings AI agents and new creative </a></li></ul></div>
+<div class="nl-back"><p class="nl-cat">昨日の分</p><ul><li><a href="https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/">Jensen Huang accused of having another a</a></li><li><a href="https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/">How backlash and red tape continue to sl</a></li><li><a href="https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/">Congress to call Jensen Huang in to answ</a></li></ul></div>
 <div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/">Jensen Huang accused of having another a</a></h3>
-<p class="nl-sum">Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/">SoftBank’s billion-dollar loss may have </a></h3>
+<p class="nl-sum">SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here&#x27;s what the loss means to power markets.</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/">How backlash and red tape continue to sl</a></h3>
-<p class="nl-sum">The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure […]</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/">Jensen Huang is out at Nvidia — who is C</a></h3>
+<p class="nl-sum">Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in scandal.</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/">Congress to call Jensen Huang in to answ</a></h3>
-<p class="nl-sum">Nvidia CEO Jensen Huang has until the end of the day Wednesday to answer a call from House Republicans for a closed-door briefing on his affair with alleged Chinese spy.</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/">Muse can now place calls to US businesse</a></h3>
+<p class="nl-sum">Muse&#x27;s AI can now place outbound calls to U.S. businesses — but it&#x27;s not free.</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/"><span class="nl-noimg">TechCrunch AI</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/">Databricks’ new AI agent tells CEO Ali G</a></h3>
-<p class="nl-sum">With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can&#x27;t know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn&#x27;t need them to. He uses Databricks&#x27; newly revised Genie agent for that.</p>
+<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/">Democrats launch Nvidia investigation, w</a></h3>
+<p class="nl-sum">This Congressional investigation into Nvidia&#x27;s China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.</p>
 
 </div>
 </div>
-<p class="nl-foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; 2026.11.12 THU &nbsp;·&nbsp; VOL.112</p>
+<p class="nl-foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; 2026.11.13 FRI &nbsp;·&nbsp; VOL.113</p>
 </div>
 </div>
 
