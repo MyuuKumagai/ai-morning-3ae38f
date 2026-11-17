@@ -1,7 +1,7 @@
 ---
 type: ai-newsletter
-date: 2026-11-16
-vol: 116
+date: 2026-11-17
+vol: 117
 cssclasses: [newsletter]
 tags: [jibun-ai, ai-news, newsletter]
 ---
@@ -9,53 +9,53 @@ tags: [jibun-ai, ai-news, newsletter]
 <div class="nl">
 
 <div class="nl-cover">
-<a class="nl-cover-img" href="https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed"><img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_03.jpg?quality=90&strip=all&crop=0,0,100,100" alt=""></a>
+<a class="nl-cover-img" href="https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/"><img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.max-600x600.format-webp.webp" alt=""></a>
 <div class="nl-cover-text">
 <p class="nl-cat nl-3">未来 — TOP STORY</p>
-<h2 class="nl-title"><a href="https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed">Jensen Huang might be plotting a return </a></h2>
+<h2 class="nl-title"><a href="https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/">New Ask Maps features to help with holid</a></h2>
 </div>
 </div>
 
 <div class="nl-main">
-<div class="nl-rule"><span>2026.11.16 · 毎朝9時ごろ更新</span></div>
+<div class="nl-rule"><span>2026.11.17 · 毎朝9時ごろ更新</span></div>
 <div class="nl-content">
-<p class="nl-lede">The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might be trying to find a path back to CEO, […]</p>
+<p class="nl-lede">&lt;img src=&#x27;https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.max-600x600.format-webp.webp&#x27;&gt;Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features.</p>
 
-<div class="nl-back"><p class="nl-cat">昨日の分</p><ul><li><a href="https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/">Where was Nvidia’s security team?</a></li><li><a href="https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/">Elon Musk, other tech execs sign petitio</a></li><li><a href="https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/">Asian governments react to Nvidia CEO Je</a></li></ul></div>
+<div class="nl-back"><p class="nl-cat">昨日の分</p><ul><li><a href="https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/">Indian chip startup Bharat Semi lands $2</a></li><li><a href="https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/">SNL gathers all the tech tycoons for a l</a></li><li><a href="https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/">Is bad news for Jensen Huang also bad ne</a></li></ul></div>
 <div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://simonwillison.net/2026/Nov/16/llm/"><span class="nl-noimg">Simon Willison</span></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/">Indian chip startup Bharat Semi lands $2</a></h3>
-<p class="nl-sum">Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.</p>
+<h3 class="nl-h"><a href="https://simonwillison.net/2026/Nov/16/llm/">llm 0.37.3</a></h3>
+<p class="nl-sum">&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; &lt;a href=&#x27;https://github.com/simonw/llm/releases/tag/0.37.3&#x27;&gt;llm 0.37.3&lt;/a&gt;&lt;/p&gt; &lt;p&gt;A bug fix release for &lt;a href=&#x27;https://llm.datasette.io&#x27;&gt;LLM&lt;/a&gt;, mainly to cover a problem with the most recent Homebrew package of the software.&lt;/p&gt; &lt;p&gt;Homebrew now ships the latest SQLite, &lt;a href=&#x27;https://www.sqlite.org/releaselog/3_54_1.html&#x27;&gt;3.54.1&lt;/a&gt;, which includes &lt;a href=&#x27;https</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription"><img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/siri-ai.jpg?quality=90&strip=all&crop=0,0,100,100" alt=""></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/">SNL gathers all the tech tycoons for a l</a></h3>
-<p class="nl-sum">While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.</p>
+<h3 class="nl-h"><a href="https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription">Apple is testing daily usage limits for </a></h3>
+<p class="nl-sum">Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is using the update to test new per device daily usage limits for some Siri AI and Apple Intelligence features, according to MacRumors. Basic Siri commands and requests will remain free and unlimited, but more advanced features that rely on […]</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/"><span class="nl-noimg">TechCrunch AI</span></a>
+<a class="nl-thumb" href="https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard"><img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_B.jpg?quality=90&strip=all&crop=0,0,100,100" alt=""></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/">Is bad news for Jensen Huang also bad ne</a></h3>
-<p class="nl-sum">&#x27;Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.&#x27;</p>
+<h3 class="nl-h"><a href="https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard">US data centers now burn more electricit</a></h3>
+<p class="nl-sum">Fossil fuels are still the biggest source of electricity for hyperscale data centers in the US, a new paper published in the journal Nature Sustainability shows. They likely burn through more electricity collectively than many countries do, resulting in a serious amount of greenhouse gas emissions. The study homes in on hyperscale facilities - the […]</p>
 
 </div>
 </div><div class="nl-row">
-<a class="nl-thumb" href="https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation"><img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301620664.jpg?quality=90&strip=all&crop=0,0,100,100" alt=""></a>
+<a class="nl-thumb" href="https://www.theverge.com/policy/1034527/openai-csam-classifier"><img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK155_OPEN_AI_CVirginia_C-1.jpg?quality=90&strip=all&crop=0,0,100,100" alt=""></a>
 <div class="nl-body">
 <p class="nl-cat nl-3">未来</p>
-<h3 class="nl-h"><a href="https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation">An overview of Jensen Huang’s messy days</a></h3>
-<p class="nl-sum">This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang&#x27;s resignation and the fallout from Nvidia&#x27;s leadership crisis, follow Terrence O&#x27;Brien. The Stepback arrives in our subscribers&#x27; inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started On October […]</p>
+<h3 class="nl-h"><a href="https://www.theverge.com/policy/1034527/openai-csam-classifier">OpenAI wants to stop deepfakes from over</a></h3>
+<p class="nl-sum">OpenAI is announcing a tool that it says will help child sexual abuse investigators cut through the noise to find harmful material they can act on quickly. At a Monday press briefing in Washington, DC, OpenAI announced a classifier it says can better detect abusive imagery of kids, including whether it&#x27;s AI-generated. It&#x27;s also offering […]</p>
 
 </div>
 </div>
-<p class="nl-foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; 2026.11.16 MON &nbsp;·&nbsp; VOL.116</p>
+<p class="nl-foot">YOUTUBE 6CH · NEWS 7SOURCES &nbsp;—&nbsp; 2026.11.17 TUE &nbsp;·&nbsp; VOL.117</p>
 </div>
 </div>
 
